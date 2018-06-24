@@ -16,7 +16,7 @@ tfeatures= transposed list of feature names (featuress) into a matrix with one l
 train_test= merged train_total and test_total dataset.\
 valid_column_names= column names without special character "-".\
 train_test_sub= subsetted dataset containing columns with the words "mean" or "sd" in their name.\
-activity_labels= activity labels without capital and "_\
-test_train_label= data frame containing a new column with descriptive activity name.\ 
+activity_labels= activity labels without capital and "_"\
+test_train_label= data frame containing a new column with descriptive activity name.  
 test_train_label_2= summarizes the average of each variable for each activity and each subject.
 
