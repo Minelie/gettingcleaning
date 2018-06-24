@@ -5,7 +5,7 @@ This is the repository for the peer-graded assignment of the Getting and Cleanin
 2/run_analysis.R
 3/codebook.md
 
-run_analysis.R contains the script to clean and merge the data provided for the project. The output is the TidyDataset.txt uploaded in Coursera. To read TidyDataset.txt in R, use following code: read.table(file_path, header = TRUE).
+run_analysis.R contains the script to clean and merge the data provided for the project. The output is the TidyDataset.txt uploaded in Coursera. To read TidyDataset.txt in R, use following code: read.table (file_path, header = TRUE).
 
 The variables created in the script are defined below:
 
