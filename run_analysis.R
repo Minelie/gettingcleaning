@@ -32,7 +32,7 @@ train_test <- rbind(train_total,test_total)#merge train_total and test_total dat
 
 valid_column_names <- make.names(names=names(train_test), unique=TRUE, allow_ = TRUE)#remove special characters ("-") in column names
 names(train_test) <- valid_column_names
-```
+
 train_test_sub <- select(train_test,subject, activity,contains("mean"),contains("std")) #select columns with the name containing the words "mean" or "sd"
 
 ##Replace activity numbers by activity names
